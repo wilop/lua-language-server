@@ -1,5 +1,5 @@
 pkgname=lua-language-server
-pkgver=3.18.1
+pkgver=3.18.2
 pkgrel=1
 pkgdesc='A language server that offers Lua language support'
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=(lua)
 
 source=("https://github.com/LuaLS/${pkgname}/releases/download/${pkgver}/${pkgname}-${pkgver}-linux-x64.tar.gz")
 
-sha256sums=('0c4a8a2b085df2e5cb56f075867eebe643c09d6fd3d998c70f9c3b7ab93f29dd')
+sha256sums=('ca71415dd19f19e30aaa35a4915aefca9fdb5fec31b98331cc3d77f778d539c5')
 
 prepare(){
 cat <<EOF > "${pkgname}"
